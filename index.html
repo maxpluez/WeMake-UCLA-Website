@@ -9,7 +9,7 @@
       }
 
       body {
-        background-color: #021C78;
+        background-color: #2774ae;
         margin: 0 0;
         text-align: center;
       }
@@ -25,6 +25,8 @@
         margin: 0 auto;
         position: fixed;
         top: 0;
+        background-color: #2774ae;
+        opacity: 0.9;
       }
 
       .navlink {
@@ -56,7 +58,7 @@
       }
 
       .button {
-        background-color: #114163;
+        background-color: #ff00a5;
         border: none;
         color: white;
         width: 25%;
@@ -128,7 +130,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 15%;
-        background-color: #3C5087;
+        background-color: #2774ae;
         background-blend-mode: multiply;
       }
 
@@ -139,7 +141,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 15%;
-        background-color: #3C5087;
+        background-color: #2774ae;
         background-blend-mode: multiply;
       }
 
@@ -150,7 +152,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 15%;
-        background-color: #3C5087;
+        background-color: #2774ae;
         background-blend-mode: multiply;
       }
 
@@ -161,7 +163,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 15%;
-        background-color: #3C5087;
+        background-color: #2774ae;
         background-blend-mode: multiply;
       }
 
@@ -221,6 +223,44 @@
         background-color: #3C5087;
         background-blend-mode: multiply;
       }
+
+      @media screen and (min-width: 1000px){
+        .panels{
+          width: 90%;
+          margin: auto;
+          display: grid;
+          grid-template-columns: 1fr 0.08fr 1fr;
+          grid-template-rows: 1fr 1fr;
+        }
+
+        .panelex{
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 1;
+          grid-row-end: 2;
+        }
+
+        .panelvol{
+          grid-column-start: 3;
+          grid-column-end: 4;
+          grid-row-start: 1;
+          grid-row-end: 2;
+        }
+
+        .panelpine{
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 2;
+          grid-row-end: 3;
+        }
+
+        .panelatt{
+          grid-column-start: 3;
+          grid-column-end: 4;
+          grid-row-start: 2;
+          grid-row-end: 3;
+        }
+      }
     </style>
   </head>
 
@@ -245,31 +285,31 @@
       <p class="introsubtitle">EXHIBITOR SIGN UP NOW OPEN</p>
       <p class="introcontent">Join the We Make Movement. Makers of all skill levels and disciplines join us at the UCLA campus to showcase their inventions, crafts, talents, and innovations. The makers will include student makers, UCLA campus makers, and the Los Angeles community of makers. The day is sure to inspire your inner creative as you learn more about Maker Resources on the UCLA campus and explore the innovative work that is happening in our community.</p>
     </div>
-
-    <div class="panelex">
+    <div class="panels">
+    <div class="panel panelex">
       <p class="paneltitle"><strong>Exhibit</strong></p>
       <p class="panelcontent">Are you a maker? Sign up to showcase your work and be a part of event!</p>
       <button class="button">Exhibitor Applications</button>
     </div>
 
-    <div class="panelvol">
+    <div class="panel panelvol">
       <p class="paneltitle"><strong>Volunteer</strong></p>
       <p class="panelcontent">UCLA students are invited to join the We Make Movement by volunteering at the event!</p>
       <button class="button">Volunteer Info</button>
     </div>
 
-    <div class="panelpine">
+    <div class="panel panelpine">
       <p class="paneltitle"><strong>Pinewood Derby</strong></p>
       <p class="panelcontent">UCLA students of The Hill are invited to build and race a car in our Pinewood Derby!</p>
       <button class="button">Pinewood Derby Info</button>
     </div>
 
-    <div class="panelatt">
+    <div class="panel panelatt">
       <p class="paneltitle"><strong>Attend</strong></p>
       <p class="panelcontent">Channel your inner maker and join us for the fun. Sign up to attend the event!</p>
       <button class="button">Attendee Info</button>
     </div>
-
+    </div>
     <div class="bot">
       <p class="bottitle"><strong>2019 Activities...</strong></p>
       <p class="botcontent">Pinewood Derby, Aln Interactive Light Piano, Student Performances, A Balloon Artist, Bounce House, Succulent Planting, Lego Build, Coloring Exhibit, Inspiration Stations, Chalkwall, Personalized Poems, and more!</p>
