@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f2ad10-069b-4a49-880f-8fbecc3811db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WeMake-UCLA-Website.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +42,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579674731217</updated>
-      <workItem from="1579674732564" duration="867000" />
+      <workItem from="1579674732564" duration="1123000" />
     </task>
     <servers />
   </component>
