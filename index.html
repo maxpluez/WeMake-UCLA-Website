@@ -9,14 +9,23 @@
       }
 
       body {
-        background-color: #2774ae;
+        background-color: white;
         margin: 0 0;
         text-align: center;
       }
 
       p {
-        color: white;
+        color: black;
         text-align: center;
+      }
+
+      ul{
+        list-style-type: none;
+      }
+
+      img{
+        width: 100%;
+        height: auto;
       }
 
       .navbar {
@@ -25,7 +34,7 @@
         margin: 0 auto;
         position: fixed;
         top: 0;
-        background-color: #2774ae;
+        background-color: white;
         opacity: 0.9;
       }
 
@@ -34,7 +43,7 @@
         font-size: 1rem;
         text-align: center;
         font-family: "NATS";
-        color: white;
+        color: #2774ae;
         margin: auto;
       }
 
@@ -46,7 +55,7 @@
         text-align: center;
         font-family: "Palanquin Dark";
         color: white;
-        background-color: #114163;
+        background-color: #2774ae;
         padding-top: 1%;
         padding-bottom: 1%;
         margin-bottom: 0;
@@ -73,7 +82,7 @@
       }
 
       .button:hover {
-        background-color: green;
+        background-color: #f7941d;
       }
 
       .paneltitle {
@@ -91,7 +100,7 @@
         font-family: "Pavanam";
         font-size: 1.2rem;
         color: white;
-        background-color: #114163;
+        background-color: #2774ae;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -113,16 +122,20 @@
 
       .introcontent{
         font-family: "Poppins";
-        font-size: 1.25rem;
-        margin: 0 15%;
+        font-size: 20px;
+        margin: auto auto;
         line-height: 1.75rem;
       }
 
       .panelex, .panelvol, .panelpine, .panelatt{
-        margin: 3% 0;
-        padding-top: 5%;
+        margin: 3% auto;
+        padding: 5% 2%;
+        background-color: white;
+        border: 2px solid #ff00a5;
+        border-radius: 20px;
+        width: 90%;
       }
-
+/*
       .panelex{
         background-image: url("WebsitePhotos/wemake-bike.jpg");
         overflow-x: hidden;
@@ -166,10 +179,11 @@
         background-color: #2774ae;
         background-blend-mode: multiply;
       }
-
+*/
       .paneltitle {
         font-family: "Righteous";
         font-size: 2.5rem;
+        color: #2774ae;
       }
 
       .panelcontent {
@@ -189,8 +203,8 @@
 
       .botcontent {
         font-family: "Poppins";
-        font-size: 1.25rem;
-        margin: 0 15%;
+        font-size: 20px;
+        margin: auto auto;
         line-height: 1.75rem;
       }
 
@@ -202,8 +216,10 @@
       }
 
       .hugetitle {
-        width: 30%;
+        width: 70%;
         min-width: 200px;
+        height: auto;
+        margin-bottom: 5%;
       }
 
       .wemakeicon {
@@ -213,14 +229,14 @@
       }
 
       .wemaketitle {
-        padding-top: 10%;
-        background-image: url("WebsitePhotos/wemake-bench.jpg");
+        padding-top: 100px;
+        /*background-image: url("WebsitePhotos/wemake-bench.jpg");
         overflow-x: hidden;
         overflow-y: hidden;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center center;
-        background-color: #2774ae;
+        background-position: center center;*/
+        background-color: white;
         background-blend-mode: multiply;
       }
 
@@ -260,6 +276,48 @@
           grid-row-start: 2;
           grid-row-end: 3;
         }
+
+        .intro1, .intro2{
+          width: 90%;
+          margin: auto;
+          display: grid;
+          grid-template-columns: 60% 5% 35%;
+          grid-template-rows: 1fr;
+        }
+
+        .intro1 img, .intro2 img{
+          grid-column-start: 3;
+          grid-column-end: 4;
+          margin: auto;
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .intro1 .introcontent, .intro2 .introcontent{
+          grid-column-start: 1;
+          grid-column-end: 2;
+        }
+
+        .bot1, .bot2{
+          width: 90%;
+          margin: auto;
+          display: grid;
+          grid-template-columns: 60% 5% 35%;
+          grid-template-rows: 1fr;
+        }
+
+        .bot1 img, .bot2 img{
+          grid-column-start: 3;
+          grid-column-end: 4;
+          margin: auto;
+          max-width: 100%;
+          max-height: 100%;
+        }
+
+        .bot1 ul, .bot2 ul{
+          grid-column-start: 1;
+          grid-column-end: 2;
+        }
       }
     </style>
   </head>
@@ -274,47 +332,82 @@
     </div>
 
     <div class="wemaketitle">
-      <p class="secondannual">2nd Annual</p>
-      <img class="hugetitle" src="cutout.png"/>
+      <!--<p class="secondannual">2nd Annual</p>-->
+      <img class="hugetitle" src="img/title2.png"/>
       <p class="subtitle">May 16, 2020 <span>&#9881;</span> 1PM-5PM<br>SUNSET VILLAGE PLAZA, UCLA</p>
     </div>
 
     <div class="intro">
-      <img class="wemakeicon" src="logo.png"/>
-      <p class="introtitle"><strong>Calling All Makers!</strong></p>
-      <p class="introsubtitle">EXHIBITOR SIGN UP NOW OPEN</p>
-      <p class="introcontent">Join the We Make Movement. Makers of all skill levels and disciplines join us at the UCLA campus to showcase their inventions, crafts, talents, and innovations. The makers will include student makers, UCLA campus makers, and the Los Angeles community of makers. The day is sure to inspire your inner creative as you learn more about Maker Resources on the UCLA campus and explore the innovative work that is happening in our community.</p>
+      <img class="wemakeicon" src="img/title1.png"/>
+      <h2 class="introtitle"><strong>Calling All Makers!</strong></h2>
+      <h3 class="introsubtitle">EXHIBITOR SIGN UP NOW OPEN</h3>
+      <div class="intro1">
+        <p class="introcontent">Join the We Make Movement. Makers of all skill levels and disciplines join us at the UCLA campus to showcase their inventions, crafts, talents, and innovations.</p>
+        <img src="img/wemake-bench.jpg" />
+      </div>
+      <div class="intro2">
+        <div class="introcontent">
+          <ul>
+            <li>Student Makers</li>
+            <li>UCLA Campus Makers</li>
+            <li>Los Angeles Community of Makers</li>
+          </ul>
+          <p>The day is sure to inspire your inner creative as you learn more about Maker Resources on the UCLA campus and explore the innovative work that is happening in our community.</p>
+        </div>
+        <img src="img/wemake-car.jpg" />
+      </div>
     </div>
+
     <div class="panels">
-    <div class="panel panelex">
-      <p class="paneltitle"><strong>Exhibit</strong></p>
-      <p class="panelcontent">Are you a maker? Sign up to showcase your work and be a part of event!</p>
-      <button class="button">Exhibitor Applications</button>
+      <div class="panel panelex">
+        <p class="paneltitle"><strong>Exhibit</strong></p>
+        <p class="panelcontent">Are you a maker? Sign up to showcase your work and be a part of event!</p>
+        <button class="button">Exhibitor Applications</button>
+      </div>
+
+      <div class="panel panelvol">
+        <p class="paneltitle"><strong>Volunteer</strong></p>
+        <p class="panelcontent">UCLA students are invited to join the We Make Movement by volunteering at the event!</p>
+        <button class="button">Volunteer Info</button>
+      </div>
+
+      <div class="panel panelpine">
+        <p class="paneltitle"><strong>Pinewood Derby</strong></p>
+        <p class="panelcontent">UCLA students of The Hill are invited to build and race a car in our Pinewood Derby!</p>
+        <button class="button">Pinewood Derby Info</button>
+      </div>
+
+      <div class="panel panelatt">
+        <p class="paneltitle"><strong>Attend</strong></p>
+        <p class="panelcontent">Channel your inner maker and join us for the fun. Sign up to attend the event!</p>
+        <button class="button">Attendee Info</button>
+      </div>
     </div>
 
-    <div class="panel panelvol">
-      <p class="paneltitle"><strong>Volunteer</strong></p>
-      <p class="panelcontent">UCLA students are invited to join the We Make Movement by volunteering at the event!</p>
-      <button class="button">Volunteer Info</button>
-    </div>
-
-    <div class="panel panelpine">
-      <p class="paneltitle"><strong>Pinewood Derby</strong></p>
-      <p class="panelcontent">UCLA students of The Hill are invited to build and race a car in our Pinewood Derby!</p>
-      <button class="button">Pinewood Derby Info</button>
-    </div>
-
-    <div class="panel panelatt">
-      <p class="paneltitle"><strong>Attend</strong></p>
-      <p class="panelcontent">Channel your inner maker and join us for the fun. Sign up to attend the event!</p>
-      <button class="button">Attendee Info</button>
-    </div>
-    </div>
     <div class="bot">
-      <p class="bottitle"><strong>2019 Activities...</strong></p>
-      <p class="botcontent">Pinewood Derby, Aln Interactive Light Piano, Student Performances, A Balloon Artist, Bounce House, Succulent Planting, Lego Build, Coloring Exhibit, Inspiration Stations, Chalkwall, Personalized Poems, and more!</p>
-      <p class="bottitle"><strong>2019 Exhibits from Los Angeles and UCLA Makers!</strong></p>
-      <p class="botcontent">$lappers, 3D Prints by Christopher, 3D4E@UCLA, All Nighter Cosplay, Aqueous, BHS Aquaponics Demo, BMK Bikes, Bruin Racing, California eBoard, CMMND, Cosplay Creations, DevX, Embruindery, Escality, ESCAPEDOM: Escape Rooms, FAST at UCLA, Fun items, LUGOLA, Media Team @uclaHousing, Microduino, mCookie, Nonscriptum LLC, Solar Team (Renewable Energy Association), Studio 22, UAS@UCLA (Unmanned Aerial Systems at UCLA), VR Brain, Whole Brain, Whole Heart, The iKNITiative, Sarah Mo Bread Making, Rolling Robots Outreach, 3D Stuph, Bruin Spacecraft Group, Dewan Huff, Poets as Makers!</p>
+      <h2 class="bottitle"><strong>Activities...</strong></h2>
+      <div class="botcontent bot1">
+        <ul>
+          <li>Pinewood Derby</li>
+          <li>Aln Interactive Light Piano</li>
+          <li>Student Performances</li>
+          <li>A Balloon Artist</li>
+          <li>Bounce House</li>
+          <li>And more...</li>
+        </ul>
+        <img src="img/wemake-car.jpg">
+      </div>
+      <h2 class="bottitle"><strong>Exhibits...</strong></h2>
+      <div class="botcontent bot2">
+        <ul>
+          <li>3D Prints by Christopher</li>
+          <li>3D4E@UCLA</li>
+          <li>All Nighter Cosplay</li>
+          <li>Aqueous</li>
+          <li>BHS Aquaponics Demo</li>
+          <li>And more...</li>
+        </ul>
+        <img src="img/wemake-bike.jpg">
     </div>
 
     <div class="contact">

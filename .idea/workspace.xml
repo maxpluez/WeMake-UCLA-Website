@@ -2,7 +2,158 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4f2ad10-069b-4a49-880f-8fbecc3811db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/Links and Dimensions.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-advert-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-advert-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-advert-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-advert-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-info-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-info-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-info-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-banner-info-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bench-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bench-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bench-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bench-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bike-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bike-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bike-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bike-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bread-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bread-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bread-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-bread-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-car-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-car-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-car-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-car-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-mask-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-mask-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-mask-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/compressed/wemake-mask-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-advert-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-advert-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-advert-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-advert-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-info-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-info-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-info-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-banner-info-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bench-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bench-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bench-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bench-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bike-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bike-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bike-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bike-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bread-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bread-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bread-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-bread-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-car-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-car-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-car-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-car-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-mask-1x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-mask-2x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-mask-3x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/resized/wemake-mask-4x.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/title1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/title2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-advert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-banner-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-bench.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-bike.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-bread.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-car.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wemake-mask.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/Links and Dimensions.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-advert-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-advert-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-advert-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-advert-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-info-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-info-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-info-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-banner-info-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bench-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bench-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bench-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bench-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bike-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bike-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bike-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bike-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bread-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bread-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bread-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-bread-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-car-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-car-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-car-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-car-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-mask-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-mask-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-mask-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/compressed/wemake-mask-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-advert-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-advert-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-advert-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-advert-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-info-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-info-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-info-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-banner-info-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bench-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bench-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bench-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bench-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bike-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bike-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bike-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bike-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bread-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bread-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bread-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-bread-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-car-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-car-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-car-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-car-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-mask-1x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-mask-2x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-mask-3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/resized/wemake-mask-4x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-advert.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-banner-info.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-bench.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-bike.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-bread.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-car.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebsitePhotos/wemake-mask.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logo.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,11 +165,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1WjtG1Gnx4FmGG9HDkkmLPGtfNG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,7 +203,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579674731217</updated>
-      <workItem from="1579674732564" duration="1123000" />
+      <workItem from="1579674732564" duration="1206000" />
+      <workItem from="1579749850369" duration="380000" />
+      <workItem from="1579751136862" duration="2880000" />
     </task>
     <servers />
   </component>
@@ -54,10 +217,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
