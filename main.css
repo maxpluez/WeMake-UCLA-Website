@@ -46,6 +46,7 @@ button:hover{
     background-color: white;
     display: flex;
     text-align: center;
+    border-bottom: 2px solid #74A6BA;
 }
 
 .topnav a{
