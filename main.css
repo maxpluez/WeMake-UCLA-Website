@@ -76,7 +76,7 @@ img{
 }
 
 .topnav .navlink:hover {
-    color: #74A6BA;
+    color: #437589;
 }
 
 .topnav .icon{
@@ -183,8 +183,8 @@ img{
 }
 
 .footer-link:hover{
-    color: #74A6BA;
-    border-bottom: 1px solid #74A6BA;
+    color: #437589;
+    border-bottom: 1px solid #437589;
 }
 
 @media screen and (min-width: 1000px){
@@ -351,4 +351,15 @@ img{
     max-width: 100%;
     height: auto;
     margin: 0 auto;
+}
+a {
+    color: #e00092;
+}
+a:hover {
+    color: #437589;
+}
+@media (max-width: 400px) {
+    .button {
+        font-size: 1rem;
+    }
 }
