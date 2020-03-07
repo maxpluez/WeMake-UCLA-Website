@@ -200,9 +200,8 @@ h2 {
 }
 
 .footer-img {
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 200px;
+    margin: auto;
     display: block;
 }
 
@@ -214,10 +213,14 @@ h2 {
 .footer-link:hover {
     text-decoration: underline;
     color: white;
-    padding: .2rem;
+    padding: .2rem 0;
 }
 
 @media screen and (min-width: 1000px){
+    .topnav a {
+        margin: auto 0;
+    }
+
     .wemaketitle{
         width: 90%;
         margin: auto;
