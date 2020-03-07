@@ -50,6 +50,7 @@ img {
 h2 {
     color: #e00092;
     font-weight: 700;
+    margin-top: 0;
 }
 
 .page-section {
@@ -62,6 +63,7 @@ h2 {
 
 .topnav {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     margin: 0 auto;
     position: fixed;
@@ -73,7 +75,7 @@ h2 {
 }
 
 .topnav a {
-    margin: auto;
+    margin: auto 3rem;
 }
 
 .topnav .navlink {
@@ -165,7 +167,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     list-style: none;
-    padding-left: none !important;
+    padding-left: 0;
     line-height: 120%;
 }
 
@@ -197,12 +199,6 @@ h2 {
     color: white;
 }
 
-.footer-link:hover {
-    border-bottom: 1px solid white;
-    color: white;
-    padding: .2rem;
-}
-
 .footer-img {
     width: 60%;
     margin-left: auto;
@@ -213,6 +209,12 @@ h2 {
 .footer-link {
     color: white;
     text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    color: white;
+    padding: .2rem;
 }
 
 @media screen and (min-width: 1000px){
