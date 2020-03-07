@@ -202,6 +202,11 @@ img {
     line-height: 1rem;
 }
 
+.footer-link:hover {
+    border-bottom: 1px solid white;
+    color: white;
+}
+
 .footer-img {
     width: 50%;
     margin-left: auto;
