@@ -165,10 +165,9 @@ img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    margin-left: -1px;
     list-style: none;
-    padding-left: none;
+    padding-left: none !important;
+    line-height: 120%;
 }
 
 /*how to stop left border on first of row*/
@@ -195,11 +194,8 @@ img {
     padding: 10% 10%;
     background-color: #e00092;
     padding-bottom: 10px;
-}
-
-.footer p {
-    text-align: center;
-    line-height: 1rem;
+    text-align: left;
+    color: white;
 }
 
 .footer-link:hover {
@@ -208,7 +204,7 @@ img {
 }
 
 .footer-img {
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -216,7 +212,6 @@ img {
 
 .footer-link {
     color: white;
-    padding-bottom: .1em;
     text-decoration: none;
 }
 
