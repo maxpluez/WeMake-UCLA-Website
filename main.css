@@ -211,18 +211,18 @@ footer p {
     body {
         background-image: url(img/we-make-background.jpg);
         background-repeat: none;
-        background-size: auto;
+        background-size: 100%;
         background-attachment: fixed;
     }
 
     .update {
         width: 60%;
         font-size: 1.5rem;
-        margin-bottom: 4rem;
+        margin-bottom: 6rem;
     }
 
     h1.update {
-        margin-top: 8rem;
+        margin-top: 10rem;
     }
 
     nav a {
@@ -294,7 +294,7 @@ footer p {
 
     footer p {
         grid-column-start: 4;
-        grid-column-end: 5;
+        grid-column-end: 7;
         grid-row-start: 1;
         grid-row-end: 2;
     }
