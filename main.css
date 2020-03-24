@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    background-image: url(we-make-background.jpg);
     background-color: white;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -12,7 +13,12 @@ body {
 
 .update {
     text-align: center;
-    padding: 1.5rem 0;
+    margin: 0 auto;
+    line-height: 200%;
+}
+
+.update h1 {
+    font-size: 150%;
 }
 
 a {
@@ -264,20 +270,13 @@ footer p {
 
     footer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 1fr;
     }
 
-    .footer-img{
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-    }
-
-    footer p{
+    .footer-content {
         grid-column-start: 2;
-        grid-column-end: end;
+        grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
     }
