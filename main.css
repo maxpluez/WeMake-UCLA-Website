@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: url(we-make-background.jpg);
+    background-image: url(img/we-make-background.jpg);
     background-color: white;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +14,7 @@ body {
 .update {
     text-align: center;
     margin: 0 auto;
-    line-height: 200%;
+    line-height: 120%;
 }
 
 .update h1 {
@@ -211,7 +211,7 @@ footer p {
 @media screen and (min-width: 1000px){
     .update {
         width: 60%;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     nav a {
