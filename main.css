@@ -3,7 +3,6 @@ html {
 }
 
 body {
-    background-image: url(img/we-make-background.jpg);
     background-color: white;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -13,12 +12,12 @@ body {
 
 .update {
     text-align: center;
-    margin: 0 auto;
+    margin: 1rem auto;
     line-height: 120%;
 }
 
 .update h1 {
-    font-size: 150%;
+    font-size: 2rem;
 }
 
 a {
@@ -209,9 +208,19 @@ footer p {
 }
 
 @media screen and (min-width: 1000px){
+    body {
+        background-image: url(img/we-make-background.jpg);
+        background-repeat: none;
+        background-size: auto;
+    }
+
     .update {
         width: 60%;
         font-size: 1.5rem;
+    }
+
+    .update h1 {
+        margin-top: 8rem;
     }
 
     nav a {
@@ -262,21 +271,21 @@ footer p {
     }
 
     right {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
     footer{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(6, 1fr);
         grid-template-rows: 1fr;
     }
 
     .footer-content {
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 4;
+        grid-column-end: 6;
         grid-row-start: 1;
         grid-row-end: 2;
     }
