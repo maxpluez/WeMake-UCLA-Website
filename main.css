@@ -10,6 +10,11 @@ body {
     line-height: 180%;
 }
 
+.update {
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
 a {
     color: #e00092;
 }
@@ -69,6 +74,7 @@ nav {
     text-align: center;
     border-bottom: 1px solid #e00092;
     z-index: 100;
+    padding: 0 1rem;
 }
 
 nav a {
@@ -170,11 +176,15 @@ footer {
     padding: 1rem 2rem;
     background-color: #e00092;
     padding-bottom: 30px;
-    text-align: left;
     color: white;
 }
 
+footer p {
+    text-align: left;
+}
+
 .footer-img {
+    text-align: right;
     max-width: 200px;
     margin: auto;
     display: block;
@@ -194,9 +204,8 @@ footer {
 
 @media screen and (min-width: 1000px){
     .update {
-        width: 75%;
+        width: 60%;
         font-size: 2rem;
-        padding: 2rem 0;
     }
 
     nav a {
@@ -255,20 +264,20 @@ footer {
 
     footer{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr;
     }
 
     .footer-img{
-        grid-column-start: 2;
-        grid-column-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
-    .footer p{
-        grid-column-start: 3;
-        grid-column-end: 4;
+    footer p{
+        grid-column-start: 2;
+        grid-column-end: end;
         grid-row-start: 1;
         grid-row-end: 2;
     }
